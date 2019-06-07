@@ -1,3 +1,40 @@
+body {
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contentBox {
+  background-color: lightgrey;
+  border-radius: 15px;
+  box-shadow: 5px 5px black;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 2px;
+  text-shadow: 1px 1px #2fafaf;
+}
+
 .hidden {
   display: none;
+}
+
+.survey {
+  border-radius: 15px;
+  border-color: #272525;
+  border-style: inset;
+  border-top: none;
+  border-left: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1.contentBox, h1 {
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 1px 1px darksalmon;
 }

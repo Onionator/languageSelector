@@ -4,6 +4,7 @@ $(document).ready(function() {
     event.preventDefault();
     //this hides the previous answer
     $(".hidden").hide();
+    $(".contentBox").show();
     //total stores the total from the values that the user inputted by answering questions
     var total = parseInt($("input:radio[name=question1]:checked").val());
     total += parseInt($("input:radio[name=question2]:checked").val());

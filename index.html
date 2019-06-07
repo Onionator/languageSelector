@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Language Selector</title>
-  </head>
-  <body>
-    <h1>Which Programming Language Should You Learn?</h1>
-    <form class="form">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Language Selector</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="contentBox">Which Programming Language Should You Learn?</h1>
+    <form class="form contentBox">
       <div class="survey">
         <h2>How much do you know about programming?</h2>
         <input type="radio" name="question1" value="1" checked>
@@ -66,11 +67,12 @@
       </div>
       <button type="submit" id="button">Find Your Language!</button>
     </form>
-    <div class="answer">
+    <div class="contentBox hidden">
       <h1 class="hidden" id="reject">Programming might not be right for you.</h1>
       <h1 class="hidden" id="javascript">JavaScript</h1>
       <h1 class="hidden" id="java">Java</h1>
       <h1 class="hidden" id="cPlusPlus">C++</h1>
     </div>
-  </body>
+  </div>
+</body>
 </html>
