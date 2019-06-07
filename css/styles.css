@@ -52,11 +52,13 @@ h1.contentBox, h1 {
   font-size: 20px;
   font-weight: bold;
   padding:10px;
+  /*this code is used to change the button color */
   animation-name: btn;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
+/*this code is used to change the button color */
 @keyframes btn {
   0% {background-color: darksalmon;}
   50% {background-color: #2fafaf;}
