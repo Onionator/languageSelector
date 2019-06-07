@@ -12,7 +12,7 @@ $(document).ready(function() {
     total += parseInt($("input:radio[name=question4]:checked").val());
     total += parseInt($("input:radio[name=question5]:checked").val());
     // these if statements determine what language the index.html should show by unhiding the language related to the id based on which range the value in total falls into
-    if (total <= 5) {
+    if (total === 5) {
       $("#reject").show();
     } else if (total <= 12) {
       $("#javascript").show();
