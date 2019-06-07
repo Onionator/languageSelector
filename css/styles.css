@@ -52,4 +52,13 @@ h1.contentBox, h1 {
   font-size: 20px;
   font-weight: bold;
   padding:10px;
+  animation-name: btn;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes btn {
+  0% {background-color: darksalmon;}
+  50% {background-color: #2fafaf;}
+  100% {background-color: darksalmon;}
 }
