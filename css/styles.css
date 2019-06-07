@@ -23,52 +23,6 @@ body {
 .hidden {
   display: none;
 }
-/* .horizontal_nav is used to make a fixed horizontal navbar */
-.horizontal_nav {
-  text-align: center;
-}
-/* .horizontal_nav nav is used to make a fixed horizontal navbar */
-.horizontal_nav nav {
-  background-color: #2fafaf;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  display: inline-flex;
-  overflow: hidden;
-  padding-bottom: 20px;
-  position: fixed;
-  top: 0px;
-  left: 0%;
-  right: 0%;
-}
-/*.horizontal_nav a changes how to buttons look*/
-.horizontal_nav a {
-  /*Text modifications in navbar*/
-  color: black;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: 1px 1px #2fafaf;
-  /*button/tab modifications in navbar*/
-  background-color: lightgrey;
-  border: 2px solid black;
-  border-radius: 5px;
-  border-style: outset;
-  display: block;
-  float: left;
-  width: 25%;
-}
-/*.horizontal_nav a.active shows the user which webpage he is on.*/
-.horizontal_nav a.active {
-  background-color: #2fafaf;
-  border-bottom-style: none;
-  border-right-style: none;
-}
-/*.horizontal nav a:hover changes what happens when the cursor is hovering over an anchor*/
-.horizontal_nav a:hover {
-  background-color: #2fafaf;
-  border-color: white;
-  color: white;
-}
 
 .survey {
   border-radius: 15px;
@@ -86,10 +40,6 @@ h1.contentBox, h1 {
   padding: 10px;
   text-align: center;
   text-shadow: 1px 1px darksalmon;
-}
-
-#topBox {
-  margin-top: 80px;
 }
 
 #button {
