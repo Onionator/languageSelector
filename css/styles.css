@@ -53,7 +53,7 @@ h1.contentBox, h1 {
   font-weight: bold;
   padding:10px;
   animation-name: btn;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
