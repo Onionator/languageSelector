@@ -44,9 +44,9 @@
       </div>
       <div class="survey">
         <h2>What is your process of learning?</h2>
-        <input type="radio" name="question4" value="1">
+        <input type="radio" name="question4" value="1" checked>
         <label for="question4">Learn by osmosis</label><br>
-        <input type="radio" name="question4" value="2" checked>
+        <input type="radio" name="question4" value="2">
         <label for="question4">Figure it out as I go</label><br>
         <input type="radio" name="question4" value="3">
         <label for="question4">Read a little then try it</label><br>
@@ -67,9 +67,10 @@
       <button type="submit" id="button">Find Your Language!</button>
     </form>
     <div class="answer">
-      <h1 id="javascript">JavaScript</h1>
-      <h1 id="java">Java</h1>
-      <h1 id="cPlusPlus">C++</h1>
+      <h1 class="hidden" id="reject">Programming might not be right for you.</h1>
+      <h1 class="hidden" id="javascript">JavaScript</h1>
+      <h1 class="hidden" id="java">Java</h1>
+      <h1 class="hidden" id="cPlusPlus">C++</h1>
     </div>
   </body>
 </html>
